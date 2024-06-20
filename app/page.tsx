@@ -16,7 +16,7 @@ export default function Home() {
     setIsLoading(true);
     const startTime = performance.now();
     try {
-      const response = await fetch(`http://localhost:3000/api/onionquery`, {
+      const response = await fetch(`https://main--oniondirectory.netlify.app/api/onionquery`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
