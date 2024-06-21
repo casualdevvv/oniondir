@@ -16,7 +16,7 @@ export async function POST(request: NextRequest) {
     const formData = new URLSearchParams();
     formData.append('query', searchKeywords);
 
-    const response = await fetch('https://touched-easily-louse.ngrok-free.app/', {
+    const response = await fetch('https://traxoniondirectory.vercel.app/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
